@@ -1,0 +1,11 @@
+{
+    "satisfaction_rate": 0.0,
+    "request_types": {
+        "Required": 0,
+        "Requested": 0,
+        "Recommended": 0
+    },
+    "section_fill_rates": {},
+    "avg_courses_per_student": 0,
+    "avg_courses_per_teacher": 0
+}

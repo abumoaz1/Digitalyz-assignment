@@ -1,0 +1,67 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Schedule Dashboard</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                .dashboard { display: flex; flex-wrap: wrap; }
+                .metric-card { 
+                    border: 1px solid #ddd; 
+                    border-radius: 5px; 
+                    padding: 15px; 
+                    margin: 10px; 
+                    flex: 1 1 200px; 
+                    text-align: center;
+                }
+                .stat { font-size: 24px; font-weight: bold; color: #007bff; }
+                .charts { display: flex; flex-wrap: wrap; }
+                .chart { margin: 10px; flex: 1 1 45%; }
+                img { max-width: 100%; border: 1px solid #ddd; border-radius: 5px; }
+            </style>
+        </head>
+        <body>
+            <h1>Schedule Dashboard</h1>
+            
+            <div class="dashboard">
+                <div class="metric-card">
+                    <h3>Satisfaction Rate</h3>
+                    <div class="stat">53.19%</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Total Requests</h3>
+                    <div class="stat">1252</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Students Scheduled</h3>
+                    <div class="stat">156</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Teachers Scheduled</h3>
+                    <div class="stat">24</div>
+                </div>
+            </div>
+            
+            <h2>Schedule Visualizations</h2>
+            <div class="charts">
+                <div class="chart">
+                    <h3>Request Resolution Rate</h3>
+                    <img src="satisfaction_rate.png" alt="Satisfaction Rate">
+                </div>
+                <div class="chart">
+                    <h3>Student Distribution by Block</h3>
+                    <img src="block_distribution.png" alt="Block Distribution">
+                </div>
+                <div class="chart">
+                    <h3>Top Courses by Enrollment</h3>
+                    <img src="course_enrollment.png" alt="Course Enrollment">
+                </div>
+            </div>
+            
+            <h2>View More Details</h2>
+            <p><a href="student_schedules.html">Sample Student Schedules</a></p>
+            
+        </body>
+        </html>
+        
