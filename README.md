@@ -91,13 +91,3 @@ In this milestone, we:
    ```
    python simple_scheduler.py
    ```
-
-## Future Improvements
-
-For future iterations, we could enhance the scheduler with:
-
-1. More sophisticated optimization algorithms (e.g., constraint satisfaction)
-2. Room capacity and features consideration
-3. Teacher preference weighting
-4. Better handling of course prerequisites
-5. Improved visualization of the generated schedules 
